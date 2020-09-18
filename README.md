@@ -1,4 +1,4 @@
-# Deploying-an-Elastic-HPC-Cluster
+# AWS-Deploying-an-Elastic-HPC-Cluster
 
 Create an AWS EC2 pair and install AWS CLI version2
 

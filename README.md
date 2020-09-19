@@ -49,9 +49,11 @@ An executable file is created.
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/mpi_hello_world_1.png)
 
-Create a job submittal file by running the following command "cat >> hw.job << EOF
+Create a job submittal file by running the following command "cat >> hw.job << EOF"
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/cat%20%3E%3E%20hw.job%20%3C%3C%20EOF_1.png)
 
+Run the following command "qsub hw.job"
 
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Job_1.png)
 

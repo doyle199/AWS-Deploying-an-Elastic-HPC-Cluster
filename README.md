@@ -111,4 +111,9 @@ You can see a visual representation of the Cluster.
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Desiner_rep.png)
 
+Click the file symbol, save the template locally, and give it a descriptive name.
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Tempate_Save.png)
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Template_Name.png)
 

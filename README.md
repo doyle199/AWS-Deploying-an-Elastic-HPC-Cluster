@@ -73,3 +73,29 @@ Create an Amazon EBS Volume Snapshot for cluster reusability by going to the mas
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/dev:sdb.png)
 
+Click on the ESB ID (volume ID)
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Block_Device.png)
+
+From the action dropdown list select create snapshot.
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Create_Snapshot_1.png)
+
+Add a description of the snapshot and create a tag. Then click create snapshot.
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Tag_1.png)
+
+Save the snapshot ID in a text file.
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/snapshotIDtextfile.png)
+
+Edit the config file after the line that says maintain_initial_size = true with the following "ebs_settings = helloebs"
+
+Add this to the end using the EBS snapshot ID from before:
+
+[ebs helloebs]
+
+ebs_snapshot_id = YOUR-SNAPSHOT-ID
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/ebs_shapshot_id.png)
+

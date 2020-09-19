@@ -57,3 +57,7 @@ Run the following command "qsub hw.job"
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Job_1.png)
 
+Run the following command "cat hello_all.out"
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/hello_all.out.png)
+

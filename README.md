@@ -45,6 +45,11 @@ Run the command "qhost"
 
 Next create an mpi_hello_world executable. Run the following command separately: cd /shared, mkdir hw work, cd hw work, cat >> mpi_hello_world.c << EOF
 
+Run the following command: /opt/amazon/openmpi/bin/mpicxx mpi_hello_world.c -o hw.x
+
+An executable file is created.
+
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/mpi_hello_world_1.png)
+
 
 

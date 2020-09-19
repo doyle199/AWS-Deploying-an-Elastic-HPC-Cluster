@@ -69,3 +69,7 @@ log out of master instance by typing exit then press enter.
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/exit.png)
 
+Create an Amazon EBS Volume Snapshot for cluster reusability by going to the master instace in the EC2 console. click on the instance and click on the description tab. Scroll down to find block devices and click on /dev/sdb.
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/dev:sdb.png)
+

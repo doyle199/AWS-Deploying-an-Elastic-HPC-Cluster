@@ -117,3 +117,16 @@ Click the file symbol, save the template locally, and give it a descriptive name
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Template_Name.png)
 
+To delete and clean up the cluster, check the list of clusters by running the following CLI command "pcluster list"
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/pcluster_list.png)
+
+Delete the cluster by entering the following CLI command "pcluster delete YOUR-CLUSTER-NAME"
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/pcluster_delete.png)
+
+Navigate to the EC2 console and select snapshots under EBS. Select the actions dropdown and click delete. It will ask for confirmation. Click yes, delete.
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/EBS_Actions.png)
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Delete_Snapshot.png)

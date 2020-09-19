@@ -35,6 +35,16 @@ Launch the AWS ParallelCluster from CLI with the following command "pcluster cre
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/ParallelCluster-HelloCluster_1.png)
 
-TO BE CONTINUED
+Log in to the master instance with CLI. You can find the master instance in the AWS EC2 console.
+
+Run the command "qhost"
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/qhost_1.png)
+
+3 hosts are shown
+
+Next create an mpi_hello_world executable. Run the following command separately: cd /shared, mkdir hw work, cd hw work, cat >> mpi_hello_world.c << EOF
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/mpi_hello_world_1.png)
 
 

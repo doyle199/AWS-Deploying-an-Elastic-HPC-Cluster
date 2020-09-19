@@ -103,3 +103,12 @@ This allows you to be able to launch a new cluster and the previously created vo
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/ParallelCluster2.png)
 
+Go to template and then click on View in Designer.
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/template_view_In_designer.png)
+
+You can see a visual representation of the Cluster.
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Desiner_rep.png)
+
+

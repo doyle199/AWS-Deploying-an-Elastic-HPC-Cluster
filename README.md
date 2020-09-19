@@ -99,3 +99,7 @@ ebs_snapshot_id = YOUR-SNAPSHOT-ID
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/ebs_shapshot_id.png)
 
+This allows you to be able to launch a new cluster and the previously created volume and software is automatically available on the shared drive. For example, you can create a new cluster called parallelcluster-HelloCluster2.
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/ParallelCluster2.png)
+

@@ -61,3 +61,11 @@ Run the following command "cat hello_all.out"
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/hello_all.out.png)
 
+Run the following command "cat helloworld.o1"
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/helloworld.o1.png)
+
+log out of master instance by typing exit then press enter.
+
+![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/exit.png)
+

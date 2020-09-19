@@ -27,8 +27,6 @@ Review the new config file with the following command "cat ~/.parallelcluster/co
 
 You can edit the config file in a test editor. Change the initial_queue_size = 3, max_queue_size = 3, maintain_initial_size = True, after [cluster default], key_name = YOUR KEY NAME
 
-![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/Edit_Config_1.png)
-
 Launch the AWS ParallelCluster from CLI with the following command "pcluster create HelloCluster"
 
 ![alt text](https://github.com/doyle199/AWS_Deploying-an-Elastic-HPC-Cluster/blob/master/CLI_Launch_ParallelCluster_1.png)

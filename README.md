@@ -9,7 +9,7 @@ Install AWS ParallelCluster with the following command "sudo pip3 install --upgr
 
 ![alt text](https://github.com/doyle199/Deploying-an-Elastic-HPC-Cluster/blob/master/Install_pip3.png?raw=true)
 
-Create and Admin IAM and setup the IAM credentials in CLI with the following command "aws configure". Enter the AWS Access Key ID, AWS Secret Access Key, Default region name, Default output format. 
+Create an Admin IAM and setup the IAM credentials in CLI with the following command "aws configure". Enter the AWS Access Key ID, AWS Secret Access Key, Default region name, Default output format. 
 
 Test the IAM credentials in CLI with the folllowing command "aws s3 ls"
 
